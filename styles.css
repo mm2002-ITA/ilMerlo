@@ -1,0 +1,97 @@
+.imbue-regular {
+    font-family: "Exo 2", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Imbue", serif
+  }
+  
+  .h1{
+    text-align: center;
+    color: #333;
+    font-size: 3.2em;
+    margin: 1em 0 0 0;
+    padding: 0px;
+  }
+  .h2{
+    text-align: center;
+    color: #333;
+    font-size: .7em;
+    margin: 0 0 2em;
+    padding: 0px;
+  }
+  
+  .h3{
+    color: #333;
+    font-size: 2.7em;
+    margin: 2rem 4rem;
+    padding: 0px;
+    font-weight: 450;
+  }
+  
+  .grid-container a {
+    display: block;
+    text-decoration: none;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 3.2em;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .grid-container a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .hr{
+    color: #333;
+    margin: 20px;
+  }
+  
+  .div-prod{
+    margin: 2rem 0;
+  }
+  
+  .row-container {
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Economica", sans-serif;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .row-container .nome {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .row-container .prezzo {
+    margin: 0 0em;
+    font-size: 1.2em;
+  }
+  
+  .descrizione{
+    font-family: "Economica", sans-serif;
+    font-weight: 500;
+    color: #333;
+    margin: 0 2rem;
+  }
+  
+  
+  
+  
